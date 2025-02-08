@@ -1,0 +1,13 @@
+#image{
+    width:150px;
+}
+.columnDiv, #knowledgeDiv, #name{
+    width:98vw;
+    border-bottom: 2px solid black;
+}
+#educationDiv{
+    border-bottom:none;
+}
+#end{
+    display:none;
+}
