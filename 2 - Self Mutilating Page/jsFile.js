@@ -20,27 +20,37 @@ function equalsClick(event){let text="";
         let text='';
         let answer=0;
 
+        //Gets mathematical operation from dropdown menu
         let opt = document.getElementById("op").selectedIndex;
 
         switch(opt){
             case 0:
-                op="+";
+                //Funny ha-ha
                 if(number1==6 && number2 == 9){answer="HAHA YOURE SO FUNNY IM LITERALLY CRYING";}
+                //Regular addition
                 else{answer=number1+number2;}
+                op="+";
                 break;
+
+            //Subtraction, Multiplication, Division
             case 1: answer=number1-number2;op="-";break;
             case 2: answer=number1*number2;op="*";break;
             case 3: answer=number1/number2;op="/";break;
         }
+
+        //Line of text to output
         text = number1+" "+op+" "+number2+" = "+answer+"\n";
-        console.log(text);
         
+        //Creates p tag
         let line = document.createElement("p");
         line.textContent = text;
 
+        //Adds tag to section where it belongs
         let sect = document.getElementById("answers");
         sect.appendChild(line);
     }
+
+    //Invalid input data
     else{
         let text = "Invalid! Try again."
 
@@ -55,13 +65,16 @@ function equalsClick(event){let text="";
     event.preventDefault();
 }
 
+//When hovering over the image, weird things will happen
 function imageListen(event){
+
+    //Changes image opacity to .5
     let image = document.getElementById("theMan");
     image.style.opacity = .5;
 
+    //Replace initial message with sad one
     const helloMsg = document.getElementById("helloMsg");
     helloMsg.remove();
-
     const byeMsg = document.getElementById("byeMsg");
     byeMsg.textContent = "Me when you let me down instead-->     :(";
 
