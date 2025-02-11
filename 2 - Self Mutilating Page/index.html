@@ -2,8 +2,20 @@
 <html>
     <head>
         <title>Site</title>
+        <script src="./jsFile.js"></script>
     </head>
     <body>
-
+        <h1>Simple Calculator</h1>
+        <form method="post">
+            <input name="num1"/>
+            <select name="operation" id="op">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <input name="num2"/>
+            <input type="submit" value="=" id="equalsButton">
+        </form>
     </body>
 </html>
