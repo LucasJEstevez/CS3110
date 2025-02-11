@@ -2,20 +2,27 @@
 <html>
     <head>
         <title>Site</title>
-        <script src="./jsFile.js"></script>
+        <link rel="stylesheet" type="text/css" href="./formatting.css">
     </head>
     <body>
-        <h1>Simple Calculator</h1>
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
         <form method="post">
-            <input name="num1"/>
+            <input id="num1"/>
             <select name="operation" id="op">
-                <option value="add">+</option>
-                <option value="subtract">-</option>
-                <option value="multiply">*</option>
-                <option value="divide">/</option>
+                <option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">/</option>
             </select>
-            <input name="num2"/>
+            <input id="num2"/>
             <input type="submit" value="=" id="equalsButton">
         </form>
+        <section id="answers"></section>
+        <img src="./image.jpeg" id="theMan">
+        <h2 id="helloMsg">Hi!</h2>
+        <h2 id="byeMsg"></h2>
+        <script src="./jsFile.js"></script>
     </body>
 </html>
