@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Site</title>
+        <meta charset="utf-8">
+        <title>Calc</title>
         <link rel="stylesheet" type="text/css" href="./formatting.css">
     </head>
     <body>
         <header>
-            <h1>Simple Calculator</h1>
+            <h1>The Calculator that Never Lets You Down</h1>
         </header>
         <form method="post">
-            <input id="num1"/>
+            <input id="num1">
             <select name="operation" id="op">
                 <option value="1">+</option>
                 <option value="2">-</option>
                 <option value="3">*</option>
                 <option value="4">/</option>
             </select>
-            <input id="num2"/>
+            <input id="num2">
             <input type="submit" value="=" id="equalsButton">
         </form>
-        <section id="answers"></section>
-        <img src="./image.jpeg" id="theMan">
+        <div id="answers"></div>
+        <img src="./image.jpeg" id="theMan" alt="the man himself">
         <h2 id="helloMsg">Hi!</h2>
+
+        <!--You will see a warning for this tag. I believe this one is justified, please hover over the image to see why.-->
         <h2 id="byeMsg"></h2>
         <script src="./jsFile.js"></script>
     </body>
