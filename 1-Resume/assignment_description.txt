@@ -1,0 +1,28 @@
+
+1: Resume/CV in HTML/CSS
+
+    Due Feb 3 by 11:59pm Points 10 Submitting a file upload File Types zip, tgz, bzip, and gz
+
+Using only HTML and CSS, you will create a resume. Preferably your own, but doesn't actually matter. It should list contact information, some sort of objective tailored to getting a job at Awesome Co, Manufacturers of Gourmet Widgets, work experience, education, list of skills, and anything else you consider important.
+
+Requirements:
+
+    Write semantic HTML.
+    Write a base style sheet and a print-only style sheet.
+        There should be elements only visible in print or on screen.
+    Include a multimedia item (picture, video, audio recording of your manifesto) that does not appear when printing.
+    Print to PDF.
+    Upload a compressed archive containing the two style sheets, the multimedia item, the HTML file, and the PDF.
+
+Suggestions:
+
+    Use MDN (developer.mozilla.org).
+    Use a text editor with syntax highlighting such as VSCode, Sublime Text, Notepad++, vim.
+    Check the validity of your mark up using https://validator.w3.org/ 
+
+    Links to an external site.
+
+Important Note:
+
+    In the Rubric, with respect to Styles, "good" means default style sheets are overridden in a meaningful way and it is clear the student attempted to create a pleasing layout. Extra credit may be awarded if the grader believes the student was exceptionally successful in the attempt.
+

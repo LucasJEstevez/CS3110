@@ -1,0 +1,29 @@
+
+2: Self Mutilating Page
+
+    Due Feb 10 by 11:59pm Points 10 Submitting a file upload File Types zip, tgz, bzip, and gz
+
+Using the power of JavaScript, we will handle user initiated events and modify the structure and content of the web page. Construct a web page that has some elements that a user can interact with when viewed in a web browser.
+
+Requirements:
+
+    Implement a handler for at least two different event types.
+    At least one event handler should call preventDefault or stopPropagation.
+    Provide a comment in that handler that explains why the call to preventDefault or stopPropagation is necessary.
+    You must change at least one attribute of at least one element via JS.
+    You must remove at least one element from the DOM via JS.
+    You must create and add at least one element to the DOM via JS.
+    Upload a compressed archive to Canvas containing the HTML file and any supporting files as needed to view locally (style sheets, JavaScript source, images, etc).
+
+Suggestions:
+
+    The theme of the page is entirely up to you, but I'm looking for something that is mildly cohesive such as a webpage calculator, a game board, or a note taking tool.
+    This is meant to be a stand alone web page, so there is no need to worry about interacting with any back-end services or saving entered information.
+    You may iterate this tool into your course project.
+    You can do something completely unrelated to your project.
+
+Important Note:
+
+    You are still expected to write valid HTML
+
+
