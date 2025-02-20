@@ -1,0 +1,7 @@
+http-server -P http://localhost:3000 on local machine after install node and npm
+	^ do this in the directory where your files are
+
+npm i -g nodemon
+nodemon index.js
+
+localhost:8080
