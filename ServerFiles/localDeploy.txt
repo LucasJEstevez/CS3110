@@ -1,0 +1,5 @@
+For testing only, not to be used in prod env
+
+nodemon index.js #while in jsapp directory
+
+http-server -P http://localhost:3000 #while in html directory

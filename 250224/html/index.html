@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Vote!</title>
+    <script src="indexScript.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./formatting.css">
+  </head>
+  <body>
+    <h1>Pop Quiz!</h1>
+    <h3>Take a guess, what do you think is the funniest meme?</h3>
+    <h3>Current Standings</h3>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>Rick</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Yo Mama</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Grumpy Cat</td>
+      </tr>
+    </table>
+    <br>
+    <form action="/api" method="POST">
+      <label for="who">Cast Your Vote!</label>
+      <input name="num" id="who" />
+      <input type="submit" value="Vote!" />
+    </form>
+    <a href="/api" method="GET">See Results</a>
+    <p>Please enter a 1, 2, or 3. Thankies :)</p>
+  </body>
+</html>
