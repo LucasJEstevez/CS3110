@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gimme your SSN!</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="indexScript.js"></script>
+</head>
+<body id="body">
+
+<h1>Super Encrypted Chat-Site (Encryption Algorithm: PT (plane-techst))</h1>
+<h3>Instructions:</h3>
+Hit the identification button and give your name, then send messages!<br>
+Please access this site in multiple tabs (I would recommend multiple browsers). As you receive messages, you will
+notice notifications come in to alert you of the new messages!<br>
+This worked on both Chrome and Firefox during testing.<br>
+Regarding degrading gracefully I really didn't know what to do so the page degrades but idk if it's good or not, sorry.
+<table>
+    <thead>
+    <tr>
+        <th>User</th>
+        <th>Message</th>
+    </tr>
+    </thead>
+    <tbody id="table">
+
+    </tbody>
+</table>
+<br>
+
+<button id="identifyButton" onclick="identify()">Identification</button>
+<br><br>
+<input type="text" id="msg">
+<button id="sendMsgButton" onclick="sendMessage()">Send Message</button>
+<br><br>
+<button id="superChat" onclick="superChat()">Toggle Focused Chat Mode</button>
+</body>
+</html>
